@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '~> 4.3.2'
+gem 'jekyll-al-folio'  # ← Required theme gem!
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
